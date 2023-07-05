@@ -1,0 +1,165 @@
+.box-cars {
+  gap: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .box-cars {
+    gap: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .box-cars {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+.pick-car {
+  width: 50rem;
+  position: relative;
+}
+@media (max-width: 700px) {
+  .pick-car {
+    width: 100%;
+  }
+}
+.pick-car img {
+  width: 100%;
+  margin: 6rem;
+
+}
+
+.pick-description {
+  width: 25rem;
+}
+.pick-description__price {
+  width: 100%;
+  background-color: #F8C630;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+  padding: 0.3rem 1.9rem;
+  white-space: nowrap;
+}
+.pick-description__price span {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.pick-description__table {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  font-size: 1.4rem;
+}
+.pick-description__table__col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-template-rows: auto;
+  padding: 0.9rem 0.5rem;
+  border-bottom: 2px solid #101F22;
+  border-right: 2px solid #101F22;
+  border-left: 2px solid #101F22;
+}
+.pick-description__table__col span:nth-child(1) {
+  border-right: 2px solid #101F22;
+}
+
+
+@media (max-width: 1260px) {
+  .pick-car img {
+    width: 80%;
+    margin: 10rem;
+  }
+  .box-cars {
+    gap: 12rem;
+  }
+}
+@media (max-width: 1150px) {
+  .pick-car img {
+    width: 90%;
+    margin: 10rem;
+  }
+  .pick-car {
+    width: 40rem;
+    position: relative;
+  }
+  .box-cars {
+    gap: 15rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .pick-car img {
+    width: 100%;
+    margin: 12rem;
+  }
+  .pick-car {
+    width: 25rem;
+    position: relative;
+  }
+  .box-cars {
+    gap: 25rem;
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid rgba(0, 0, 0, 0.2588235294);
+  border-bottom-color: #F8C630;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  right: 43%;
+}
+.cta-btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  font-family: var(--font-family);
+  background-color: #F8C630;
+  padding: 1rem 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1.4rem;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 0 #efe9e9;
+}
+.cta-btn:hover {
+  background-color: #EE753F;
+}
+
+
+
+
+@media (max-width: 1035px) {
+  .pick-description {
+    width: 50rem;
+  }
+  .box-cars {
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pick-car img {
+    width: 100%;
+    margin: 0rem;
+  }
+  .pick-car {
+    width: 50rem;
+    position: relative;
+  }
+}

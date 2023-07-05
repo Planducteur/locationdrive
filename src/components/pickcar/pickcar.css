@@ -1,0 +1,86 @@
+
+.pick-section {
+  padding: 10rem 0;
+}
+
+.pick-container {
+  display: flex;
+  flex-direction: column;
+}
+.pick-container__title {
+  margin: 0 auto;
+  text-align: center;
+  color: #101F22;
+  max-width: 50rem;
+  margin-bottom: 5rem;
+}
+.pick-container__title p {
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  color: #101F22;
+  line-height: 1.5;
+}
+.pick-container__title h3 {
+  font-size: 2.4rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+.pick-container__title h2 {
+  font-size: 4.2rem;
+  font-family: var(--font-family);
+  margin: 0.5rem 0 1rem 0;
+}
+.pick-container__car-content {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pick-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  height: 400px;
+  min-width: 250px; /* Remplacez cette valeur par la hauteur souhaitée */
+  overflow: auto;
+}
+.pick-box button {
+  font-size: 2rem;
+  font-family: var(--font-family);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 1.5rem 2.5rem;
+  background-color: #e9e9e9;
+  transition: all 0.2s;
+  text-align: left;
+}
+.pick-box button:hover {
+  background-color: #F8C630;
+  color: white;
+}
+
+
+.colored-button {
+  background-color: #F8C630 !important;
+  color: white;
+}
+
+
+
+@media (max-width: 1035px) {
+  .pick-container__car-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .pick-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    height: 400px;
+    min-width: 500px;
+    overflow: auto;
+  }
+}
