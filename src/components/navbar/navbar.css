@@ -31,13 +31,13 @@
   font-size: 1.6rem;
   font-family: var(--font-family);
   font-weight: 500;
-  color: #010103;
+  color: var(--color-three);
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s;
 }
 .navbar__links a:hover {
-  color: #F8C630;
+  color: var(--color-one);
 }
 @media (max-width: 800px) {
   .navbar__links {
@@ -58,24 +58,24 @@
   }
 }
 .navbar__buttons__sign-in {
-  color: #010103;
+  color: var(--color-three);
   cursor: pointer;
   transition: all 0.3s;
 }
 .navbar__buttons__sign-in:hover {
-  color: #F8C630;
+  color: var(--color-one);
 }
 .navbar__buttons__register {
-  background-color: #F8C630;
+  background-color: var(--color-one);
   color: white;
   padding: 1.5rem 3rem;
   border-radius: 3px;
-  box-shadow: 0 10px 15px 0 #ffbf00;
+  box-shadow: 0 10px 15px 0 var(--color-one);
   transition: all 0.3s;
 }
 .navbar__buttons__register:hover {
-  box-shadow: 0 10px 15px 0 #ff5100;
-  background-color: #EE753F;
+  box-shadow: 0 10px 15px 0 var(--color-two);
+  background-color: var(--color-two);
 }
 .navbar__buttons a {
   text-decoration: none;
@@ -88,7 +88,7 @@
   transition: all 0.3s;
 }
 .mobile-hamb:hover {
-  color: #F8C630;
+  color: var(--color-one);
 }
 @media (max-width: 800px) {
   .mobile-hamb {
@@ -119,7 +119,7 @@
   transition: all 0.3s;
 }
 .mobile-navbar__close:hover {
-  color: #F8C630;
+  color: var(--color-one);
 }
 .mobile-navbar__links {
   display: flex;
@@ -131,12 +131,12 @@
 }
 .mobile-navbar__links li a {
   text-decoration: none;
-  color: #101F22;
+  color: var(--color-three);
   font-weight: 500;
   transition: all 0.3s;
 }
 .mobile-navbar__links li a:hover {
-  color: #F8C630;
+  color: var(--color-one);
 }
 
 .open-nav {

@@ -10,14 +10,14 @@
 .pick-container__title {
   margin: 0 auto;
   text-align: center;
-  color: #101F22;
+  color: var(--color-three);
   max-width: 50rem;
   margin-bottom: 5rem;
 }
 .pick-container__title p {
   font-size: 1.6rem;
   font-family: var(--font-family);
-  color: #101F22;
+  color: var(--colovar(--color-one));
   line-height: 1.5;
 }
 .pick-container__title h3 {
@@ -54,15 +54,16 @@
   background-color: #e9e9e9;
   transition: all 0.2s;
   text-align: left;
+  border-radius:15px;
 }
 .pick-box button:hover {
-  background-color: #F8C630;
+  background-color: var(--color-one);
   color: white;
 }
 
 
 .colored-button {
-  background-color: #F8C630 !important;
+  background-color: var(--color-one) !important;
   color: white;
 }
 

@@ -44,7 +44,7 @@
   width: 100%;
 }
 .team-container__box__descr {
-  color: #010103;
+  color: var(--color-three);
   padding: 3rem;
 }
 .team-container__box__descr h3 {
@@ -53,5 +53,5 @@
 .team-container__box__descr p {
   font-size: 1.6rem;
   font-weight: 500;
-  color: #777777;
+  color: var(--color-three);
 }

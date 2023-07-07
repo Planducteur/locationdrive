@@ -10,7 +10,7 @@
 .plan-container__title {
   margin: 0 auto;
   text-align: center;
-  color: #010103;
+  color: var(--color-three);
 }
 .plan-container__title h3 {
   font-size: 2.4rem;
@@ -70,6 +70,6 @@
 .plan-container__boxes__box p {
   font-size: 1.6rem;
   font-family: var(--font-family);
-  color: #101F22;
+  color: var(--color-three);
   line-height: 1.43;
 }

@@ -17,7 +17,7 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  color: #101F22;
+  color: var(--color-three);
 }
 @media (max-width: 400px) {
   .book-content__box {
@@ -36,7 +36,7 @@
   gap: 2rem;
 }
 .book-content__box .box-form b {
-  color: #A41623;
+  color: var(--color-alert);
 }
 @media (max-width: 1000px) {
   .book-content__box .box-form {
@@ -58,17 +58,17 @@
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-type label i {
-  color: #A41623;
+  color: var(--color-alert);
 }
 .book-content__box .box-form__car-type select {
   font-size: 1.5rem;
-  color: #ababab;
   font-family: var(--font-family);
   border: 1px solid #ccd7e6;
   border-radius: 3px;
   font-weight: 400;
   padding: 1.2rem 1.3rem;
   outline: none;
+
 }
 
 
@@ -88,7 +88,7 @@
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-time label i {
-  color: #A41623;
+  color: var(--color-alert);
 }
 .book-content__box .box-form__car-time input {
   font-size: 1.5rem;
@@ -117,19 +117,19 @@
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  background-color: #F8C630;
-  box-shadow: 0 10px 15px #F8C630;
+  background-color: var(--color-one);
+  box-shadow: 0 10px 15px var(--color-one);
   cursor: pointer;
   transition: all 0.3s;
   border-radius: 10px;
 }
 .book-content__box button:hover {
-  box-shadow: 0 10px 15px 0 #ff5100;
-  background-color: #EE753F;
+  box-shadow: 0 10px 15px 0 var(--color-two);
+  background-color: var(--color-two);
 }
 
 .error-message {
-  color: #721c24;
+  color: var(--color-alert);
   background-color: #f8d7da;
   border-color: #f5c6cb;
   padding: 1rem 1.4rem;

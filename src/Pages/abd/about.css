@@ -34,7 +34,7 @@
   }
 }
 .about-main__text {
-  color: #010103;
+  color: var(--color-three);
   display: flex;
   flex-direction: column;
 
@@ -51,7 +51,7 @@
 }
 .about-main__text p {
   font-size: 1.6rem;
-  color: #706f7b;
+  color: var(--color-three);
   font-family: var(--font-family);
   line-height: 1.5;
   margin-top: 2rem;

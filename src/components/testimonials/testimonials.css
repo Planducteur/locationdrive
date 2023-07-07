@@ -1,7 +1,7 @@
 .testimonials-section {
   background-color: #f8f8f8;
   padding: 10rem 0;
-  color: #101F22;
+  color: var(--color-three);
 }
 
 .testimonials-content {
@@ -28,7 +28,7 @@
 .testimonials-content__title p {
   font-size: 1.6rem;
   font-family: var(--font-family);
-  color: #101F22;
+  color: var(--color-three);
   line-height: 1.4;
 }
 
@@ -86,7 +86,7 @@
 
 .quotes-icon {
   font-size: 6.2rem;
-  color: #F8C630;
+  color: var(--color-one);
   position: absolute;
   bottom: 33px;
   right: 60px;

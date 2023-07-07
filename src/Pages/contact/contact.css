@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin: 0 auto;
-  color: #010103;
+  color: var(--color-three);
   padding: 10rem 2rem;
   background-image: url("/src/images/banners/bg-contact.png");
   background-size: auto;
@@ -36,20 +36,20 @@
 .contact-div__text p {
   font-size: 1.6rem;
   font-family: var(--font-family);
-  color: #706f7b;
+  color: var(--color-three);
   line-height: 1.6;
   margin-bottom: 2rem;
 }
 .contact-div__text a {
   text-decoration: none;
-  color: #010103;
+  color: var(--color-three);
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.2s;
   margin-bottom: 0.5rem;
 }
 .contact-div__text a:hover {
-  color: #F8C630;
+  color: var(--color-one);
 }
 .contact-div__form {
   display: flex;
@@ -65,7 +65,7 @@
   margin-bottom: 1rem;
 }
 .contact-div__form form label b {
-  color: #F8C630;
+  color: var(--color-one);
 }
 .contact-div__form form input {
   background-color: #f2f2f2;
@@ -85,19 +85,20 @@
   margin-bottom: 2.5rem;
 }
 .contact-div__form form button {
-  background-color: #F8C630;
+  background-color: var(--color-one);
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
-  box-shadow: 0 10px 15px 0 #ffbf00;
+  box-shadow: 0 10px 15px 0 var(--color-one);
   transition: all 0.3s;
-  border: 2px solid #F8C630;
+  border: 2px solid var(--color-one);
   color: white;
   font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 15px;
 }
 .contact-div__form form button:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 42, 0, 0.6);
-  background-color: #EE753F;
-  border: 2px solid #EE753F;
+  box-shadow: 0 10px 15px 0 var(--color-two);
+  background-color: var(--color-two);
+  border: 2px solid var(--color-two);
 }

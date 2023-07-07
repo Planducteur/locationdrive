@@ -28,7 +28,7 @@
 }
 .faq-content__title p {
   font-size: 1.6rem;
-  color: #101F22;
+  color: var(--color-three);
 }
 
 .all-questions {
@@ -41,7 +41,7 @@
 .faq-box {
   display: flex;
   flex-direction: column;
-  color: #101F22;
+  color: var(--color-three);
   background-color: white;
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
   width: 80rem;
@@ -70,7 +70,7 @@
 .faq-box__answer {
   font-size: 1.6rem;
   font-family: var(--font-family);
-  color: #101F22;
+  color: var(--color-three);
   line-height: 1.7;
   max-height: 0;
   overflow: hidden;
@@ -97,7 +97,7 @@
 }
 
 .active-question {
-  background-color: #F8C630;
+  background-color: var(--color-one);
   color: white;
-  box-shadow: 0 10px 15px 0 #ffbf00;
+  box-shadow: 0 10px 15px 0 var(--color-one);
 }

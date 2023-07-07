@@ -49,7 +49,7 @@
   padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
-  color: #010103;
+  color: var(--color-three);
 }
 .models-div__box__descr__name-price {
   display: flex;
@@ -72,7 +72,7 @@
 }
 .models-div__box__descr__name-price__name span i {
   font-size: 1.4rem;
-  color: #ffc933;
+  color: var(--color-one);
 }
 .models-div__box__descr__name-price__price {
   display: flex;
@@ -97,17 +97,17 @@
 .models-div__box__descr__name-price__details span {
   font-size: 1.6rem;
   font-weight: 500;
-  color: #000000;
+  color: var(--color-three);
   text-align: left;
 }
 .models-div__box__descr__name-price__details span i {
-  color: #010103;
+  color: var(--color-three);
 }
 .models-div__box__descr__name-price__btn {
-  background-color: #F8C630;
+  background-color: var(--color-one);
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
-  box-shadow: 0 10px 15px 0 #ffbf00;
+  box-shadow: 0 10px 15px 0 var(--color-one);
   transition: all 0.3s;
 
   font-size: 1.8rem;
@@ -116,8 +116,8 @@
   border-radius: 15px;
 }
 .models-div__box__descr__name-price__btn:hover {
-  box-shadow: 0 10px 15px 0 #ff5100;
-  background-color: #EE753F;
+  box-shadow: 0 10px 15px 0 var(--color-two);
+  background-color: var(--color-two);
 }
 .models-div__box__descr__name-price__btn a {
   text-decoration: none;

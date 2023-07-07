@@ -45,25 +45,25 @@
 .hero-content__text h4 {
   font-size: 2.2rem;
   font-family: var(--font-family);
-  color: #101F22;
+  color: var(--color-three);
 }
 .hero-content__text h1 {
   font-size: 5.2rem;
   font-family: var(--font-family);
   font-weight: 700;
-  color: #101F22;
+  color: var(--color-three);
   line-height: 1.2;
   margin-top: 1rem;
   margin-bottom: 2.3rem;
 }
 .hero-content__text h1 span {
-  color: #F8C630;
+  color: var(--color-one);
 }
 .hero-content__text p {
   font-size: 1.6rem;
   font-family: var(--font-family);
   line-height: 1.6;
-  color: #101F22;
+  color: var(--color-three);
   margin-bottom: 4rem;
 }
 .hero-content__text__btns {
@@ -83,12 +83,11 @@
   font-weight: 700;
 }
 .hero-content__text__btns__book-ride {
-  background-color: #F8C630;
+  background-color: var(--color-one);
   padding: 1.8rem 3rem;
-  border-radius: 0.3rem;
-  box-shadow: 0 10px 15px 0 #ffbf00;
+  box-shadow: 0 10px 15px 0 var(--color-one);
   transition: all 0.3s;
-  border: 2px solid #F8C630;
+  border: 2px solid var(--color-one);
   border-radius: 12px;
 }
 @media (max-width: 450px) {
@@ -97,9 +96,9 @@
   }
 }
 .hero-content__text__btns__book-ride:hover {
-  box-shadow: 0 10px 15px 0 #ff5100;
-  background-color: #EE753F;
-  border: 2px solid #EE753F;
+  box-shadow: 0 10px 15px 0 var(--color-two);
+  background-color: var(--color-two);
+  border: 2px solid var(--color-two);
 }
 
 .hero-content__car-img {
@@ -136,7 +135,7 @@
   position: fixed;
   font-size: 2.5rem;
   color: white;
-  background-color: #101F22;
+  background-color: var(--color-three);
   border: 3px solid white;
   width: 2rem;
   height: 2rem;

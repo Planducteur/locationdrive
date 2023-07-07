@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  background-color: #101F22;
+  background-color: var(--color-three);
   margin: 8rem 0;
   padding: 6rem 0;
   text-align: center;
@@ -38,6 +38,6 @@
   }
 }
 .banner-content__text span {
-  color: #F8C630;
+  color: var(--color-one);
   font-weight: 500;
 }
